@@ -103,3 +103,54 @@ nav {
 .groups .img img {
   width: 250px;
 }
+.container-box{
+    padding:3em 0;
+    display: flex;  
+    justify-content: center;
+    column-gap: 3em;  
+}
+.container-box .cards{
+    display: flex;
+    column-gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #FAFAFA;
+    padding: 2em 4em;
+    border-radius: 1em;
+}
+.container-box .cards:hover{
+    border: 2px solid var(--blue);
+    cursor: pointer;
+}
+.container-box .cards .box h2{
+font-size: 23px;
+font-weight: 700;
+font-family: "Poppins", sans-serif;
+padding-bottom: 15px;
+}
+.container-box .cards .box p{
+    font-size: 14px;
+    max-width: 150px;
+    color: var(--grey);
+    padding-bottom: 15px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    
+}
+.btn button{
+font-size: 12px;
+        padding: 8px 15px;
+      font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+     background: var(--red);
+     border-radius: 10px;
+     color: var(--white);
+     cursor: pointer;
+}
+.btn button:hover{
+    background: var(--black);
+}
+.container-box .cards img{
+    width: 160px;
+}
