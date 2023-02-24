@@ -1,58 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-:root{
-    --blue:#4A99D3;
-    --black:#0F001A;
-    --grey:#000000;
-    --red:#FC0B0D;
-    --white:#ffffff;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+:root {
+  --blue: #4a99d3;
+  --black: #0f001a;
+  --grey: #000000;
+  --red: #fc0b0d;
+  --white: #ffffff;
 }
-*::selection{
-    color: var(--white);
-    background: var(--black);
+*::selection {
+  color: var(--white);
+  background: var(--black);
 }
-*{
-    padding: 0;margin: 0;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
-.nav-bar{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-family: 'Poppins', sans-serif;
-    padding: 10px 9em;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    background: rgba(241, 238, 238, 0.658);
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 9em;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  background: rgba(241, 238, 238, 0.658);
 }
-nav{
-    display: flex;
-    column-gap: 25px;
+nav {
+  display: flex;
+  column-gap: 25px;
 }
-.nav-bar h1{
-    font-size: 28px;
-    color: var(--blue);
-    font-weight: 700;
-    letter-spacing: 0.13em;
-    margin-right: auto;
+.nav-bar h1 {
+  font-size: 28px;
+  color: var(--blue);
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  margin-right: auto;
 }
-.nav-bar nav .icon-group{
-    display: flex;
-    align-items: center;
-    column-gap: 10px;
+.nav-bar nav .icon-group {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
-.nav-bar nav .icon-group p a{
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--black);
+.nav-bar nav .icon-group p a {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--black);
 }
-.nav-bar nav .icon-group p a:hover{
-   color: var(--blue);
+.nav-bar nav .icon-group p a:hover {
+  color: var(--blue);
 }
-.nav-bar nav .icon-group i{
-    font-size: 20px;
+.nav-bar nav .icon-group i {
+  font-size: 20px;
 }
-.nav-bar nav .icon-group .fa-circle-plus{
-    color: var(--red);
+.nav-bar nav .icon-group .fa-circle-plus {
+  color: var(--red);
+}
+.position {
+  margin: 0 5em;
+}
+.groups {
+  display: flex;
+  justify-content: center;
+  column-gap: 4em;
+  padding: 45px 0 10px 0;
+  font-family: "Montserrat", sans-serif;
+  background: #eaf6ff;
+}
+.groups .university-campus h1 {
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--grey);
+  text-align: center;
+  line-height: 35px;
+  padding-bottom: 25px;
+}
+.groups .university-campus form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  border: 2px solid var(--red);
+  border-radius: 1em;
+}
+.groups .university-campus form i {
+  font-size: 15px;
+  color: var(--blue);
+}
+.groups .university-campus form input {
+  padding: 12px;
+  background: local;
+}
+.groups .university-campus form input::placeholder {
+  font-size: 14px;
+  color: var(--blue);
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+.groups .img img {
+  width: 250px;
 }
