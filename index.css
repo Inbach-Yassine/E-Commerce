@@ -20,6 +20,12 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+body{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #F5F5F5;
+}
 .nav-bar {
   display: flex;
   align-items: center;
@@ -27,7 +33,7 @@
   font-family: "Poppins", sans-serif;
   padding: 10px 9em;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-  background: rgba(241, 238, 238, 0.658);
+  background: var(--white);
 }
 nav {
   display: flex;
@@ -120,6 +126,7 @@ nav {
 .container-box .cards:hover{
     border: 2px solid var(--blue);
     cursor: pointer;
+    background: #EAF6FF;
 }
 .container-box .cards .box h2{
 font-size: 23px;
