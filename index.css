@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 :root {
   --blue: #4a99d3;
   --black: #0f001a;
@@ -20,11 +21,11 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-body{
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    background: #F5F5F5;
+body {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #f5f5f5;
 }
 .nav-bar {
   display: flex;
@@ -109,55 +110,110 @@ nav {
 .groups .img img {
   width: 250px;
 }
-.container-box{
-    padding:3em 0;
-    display: flex;  
-    justify-content: center;
-    column-gap: 3em;  
+.container-box {
+  padding: 3em 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 3em;
 }
-.container-box .cards{
-    display: flex;
-    column-gap: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background: #FAFAFA;
-    padding: 2em 4em;
-    border-radius: 1em;
+.container-box .cards {
+  display: flex;
+  column-gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #fafafa;
+  padding: 2em 4em;
+  border-radius: 1em;
 }
-.container-box .cards:hover{
-    border: 2px solid var(--blue);
-    cursor: pointer;
-    background: #EAF6FF;
+.container-box .cards:hover {
+  border: 2px solid var(--blue);
+  cursor: pointer;
+  background: #eaf6ff;
 }
-.container-box .cards .box h2{
-font-size: 23px;
-font-weight: 700;
-font-family: "Poppins", sans-serif;
-padding-bottom: 15px;
+.container-box .cards .box h2 {
+  font-size: 23px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 15px;
 }
-.container-box .cards .box p{
-    font-size: 14px;
-    max-width: 150px;
-    color: var(--grey);
-    padding-bottom: 15px;
+.container-box .cards .box p {
+  font-size: 14px;
+  max-width: 150px;
+  color: var(--grey);
+  padding-bottom: 15px;
 }
 .btn {
-    display: flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
 }
-.btn button{
-font-size: 12px;
-        padding: 8px 15px;
-      font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-     background: var(--red);
-     border-radius: 10px;
-     color: var(--white);
-     cursor: pointer;
+.btn button {
+  font-size: 12px;
+  padding: 8px 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background: var(--red);
+  border-radius: 10px;
+  color: var(--white);
+  cursor: pointer;
 }
-.btn button:hover{
-    background: var(--black);
+.btn button:hover {
+  background: var(--black);
 }
-.container-box .cards img{
-    width: 160px;
+.container-box .cards img {
+  width: 160px;
+}
+.groups-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 2em;
+  row-gap: 2em;
+  font-family: "Roboto", sans-serif;
+  margin: 30px 0 30px 0;
+}
+.groups-img .img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: var(--white);
+  padding: 16px;
+  border-radius: 10px;
+}
+.groups-img .img:hover {
+  border: 2px solid var(--blue);
+  cursor: pointer;
+}
+.groups-img .img img {
+  width: 200px;
+  object-fit: cover;
+}
+.groups-img .img h2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--grey);
+  padding-bottom: 10px;
+}
+.groups-img .img .para {
+  display: flex;
+  align-items: baseline;
+  font-weight: 700;
+  justify-content: space-between;
+  width: 200px;
+}
+.groups-img .img .para p {
+  font-size: 14px;
+  color: var(--red);
+}
+.groups-img .img .para span {
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 10px;
+  background: var(--red);
+  color: var(--white);
+}
+.groups-img .img .para:nth-of-type(2) > p,
+.groups-img .img .para:nth-of-type(2) > span {
+  font-size: 10px;
+  padding: 3px 0 5px 0;
+  color: var(--black);
+  background: none;
 }
