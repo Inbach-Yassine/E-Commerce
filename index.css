@@ -298,7 +298,7 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i{
 /*************************media query*************************/
 @media only screen and (max-width:600px){
   .nav-bar{
-    padding: 8px 5em;
+    padding: 8px 1em;
   }
   nav{
     position: absolute;
@@ -396,7 +396,53 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i{
 .groups-img .img .para:nth-of-type(2) > p, .groups-img .img .para:nth-of-type(2) > span {
  padding-top: 9px;
 } 
+.groups-img .img:nth-child(2),
+.groups-img .img:nth-child(4),
+.groups-img .img:nth-child(6),
+.groups-img .img:nth-child(7),
+.groups-img .img:nth-child(8),
+.groups-img .img:nth-child(9),
+.groups-img .img:nth-child(10),
+.groups-img .img:nth-child(11){
+  display: none;
+}
 .view-more {
-    padding: 20px 0 12px 0;
+    padding: 20px 0 0 0;
+}
+.view-more h1 {
+  font-size: 13px;
+  padding: 5px 14px;
+}
+.background-img img {
+  width: 60px;
+  height: 60px;
+}
+footer {
+  padding: 0 2em;
+  margin-top: 1.5em;
+}
+footer .groups-footer {
+  flex-wrap: wrap;
+column-gap: 0;
+row-gap: 2em;
+}
+footer .groups-footer .first-group h1 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+footer .groups-footer .first-group p {
+  font-size: 12px;
+
+  max-width: max-content;
+}
+footer .groups-footer .contact-about .box h2 {
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+footer .groups-footer .contact-about {
+  column-gap: 3em;
+  flex-wrap: wrap;
+  flex: 1 120px;
+  row-gap: 1em;
 }
 }
