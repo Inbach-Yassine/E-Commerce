@@ -40,6 +40,9 @@ nav {
   display: flex;
   column-gap: 25px;
 }
+.nav-bar .fa-bars{
+  display: none;
+}
 .nav-bar h1 {
   font-size: 28px;
   color: var(--blue);
@@ -291,4 +294,109 @@ footer .groups-footer .contact-about .box .icon p i{
 }
 footer .groups-footer .contact-about .box .icon p:nth-child(3) i{
     padding-right: 14px;
+}
+/*************************media query*************************/
+@media only screen and (max-width:600px){
+  .nav-bar{
+    padding: 8px 5em;
+  }
+  nav{
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    left: 0;
+    display: none;
+    padding:2em 0 2em 5em;
+    background: #EAF6FF;
+    border-top: 1px solid var(--grey);
+  }
+  .nav-bar .fa-bars{
+    display: initial;
+    font-size: 20px;
+    color: var(--blue);
+  }
+  .nav-bar h1 {
+  font-size: 20px;
+  }
+  .nav-bar nav .icon-group{
+  line-height: 2.5em;
+  }
+  .position {
+    margin: 0px 3em;
+  }
+  .groups {
+    flex-direction: column-reverse;
+    padding: 24px 0;
+    text-align: center;
+}
+.groups .img img {
+    width: 200px;
+    padding-bottom: 13px;
+}
+.groups .university-campus h1 {
+    font-size: 22px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.groups .university-campus form {
+  display: inline;
+    max-width: min-content;
+    padding: 6px 14px;
+}
+.groups .university-campus form input::placeholder,
+.groups .university-campus form i {
+  font-size: 12px;
+}
+.container-box {
+    padding: 2em 0;
+    flex-direction: column-reverse;
+    row-gap: 2em;
+}
+.container-box .cards {
+    column-gap: 5px;
+    padding: 1em 0em;
+    justify-content: center;
+}
+.container-box .cards .box h2 {
+    font-size: 19px;
+    padding-bottom: 5px;
+}
+.container-box .cards .box p {
+    font-size: 12px;
+    max-width: 120px;
+    padding-bottom: 10px;
+}
+.container-box .cards img {
+    width: 100px;
+}
+.groups-img {
+    column-gap: 1em;
+    row-gap: 1em;
+    margin: 10px 0 10px 0;
+}
+.groups-img .img {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+.groups-img .img img {
+    width: 130px;
+}
+.groups-img .img h2 {
+    padding-bottom: 5px;
+}
+.groups-img .img .para {
+     width:auto ;
+    text-align: center;
+    padding: 0 2em;
+}
+.groups-img .img .para p {
+    font-size: 12px;
+}
+.groups-img .img .para:nth-of-type(2) > p, .groups-img .img .para:nth-of-type(2) > span {
+ padding-top: 9px;
+} 
+.view-more {
+    padding: 20px 0 12px 0;
+}
 }
