@@ -339,9 +339,15 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i{
     padding-bottom: 10px;
 }
 .groups .university-campus form {
-  display: inline;
+  display: inline-flex;
+  align-items: center;
     max-width: min-content;
-    padding: 6px 14px;
+    padding: 4px 14px;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+.groups .university-campus form input {
+    padding:0;
 }
 .groups .university-campus form input::placeholder,
 .groups .university-campus form i {
