@@ -316,10 +316,11 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i {
   }
   nav {
     position: absolute;
-    top: 7%;
+    top: 5%;
     width: 100%;
+    height: 150px;
     left: 0;
-    display: none;
+    display: block;
     padding: 2em 0 2em 5em;
     background: #eaf6ff;
     border-top: 1px solid var(--grey);
@@ -334,6 +335,12 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i {
   }
   .nav-bar nav .icon-group {
     line-height: 2.5em;
+  }
+  #navbar{
+    display: none;
+  }
+  #navbar.open{
+    display: block;
   }
   .position {
     margin: 0px 3em;
