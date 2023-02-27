@@ -296,6 +296,21 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i{
     padding-right: 14px;
 }
 /*************************media query*************************/
+@media only screen and (max-width:395px){
+  .groups .img img {
+    width: 170px;
+}
+.groups .university-campus h1 {
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 0px;
+}
+.groups .university-campus form {
+  padding: 4px 7px;
+  column-gap: 8px;
+  margin-top: 7px;
+}
+}
 @media only screen and (max-width:600px){
   .nav-bar{
     padding: 8px 1em;
