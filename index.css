@@ -43,10 +43,6 @@ nav {
 .nav-bar .fa-bars {
   display: none;
 }
-.nav-bar .fa-bars:hover{
-  color: Black;
-  transform: scale(1.1);
-}
 .nav-bar h1 {
   font-size: 28px;
   color: var(--blue);
@@ -320,7 +316,7 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i {
   }
   nav {
     position: absolute;
-    top: 5%;
+    top: 6%;
     width: 100%;
     height: 150px;
     left: 0;
