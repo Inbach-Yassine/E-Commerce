@@ -1,7 +1,4 @@
-@import "/index.css";
-body{
-    overflow: hidden;
-}
+@import "./index.css";
 .register-box{
     display: flex;
     justify-content: center;
@@ -94,9 +91,6 @@ footer .groups-footer .contact-about .box h2 {
 }
 
 @media only screen and (max-width:600px){
-    body{
-        overflow: scroll;
-    }
     .register-box img {
         display: none;
     }
@@ -114,18 +108,15 @@ footer .groups-footer .contact-about .box h2 {
         font-size: 11px;
         padding-bottom: 10px;
     }
-    .register-box{
-        background: url("/Images/img-9.png") no-repeat center;
-        background-size: contain;
+}
+@media only screen and (max-width:518px){
+    .register-box .box span {
+        padding: 2px 3em;
     }
-    @media only screen and (max-width:518px){
-        .register-box .box span {
-            padding: 2px 3em;
-        }
-    }
-    @media only screen and (max-width:380px){
-        .register-box .box span {
-            padding: 2px 2em;
-        }
+}
+
+@media only screen and (max-width:380px){
+    .register-box .box span {
+        padding: 2px 2em;
     }
 }
