@@ -1,5 +1,5 @@
 var Menu = document.querySelector("#navbar");
-var MenuBar = document.querySelector("#MenuToggele");
+var MenuBar = document.querySelector("#MenuToggle");
 
 MenuBar.addEventListener("click", () => {
   Menu.classList.toggle("open");

@@ -342,6 +342,12 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i {
   #navbar.open{
     display: block;
   }
+  #MenuToggle.open::before{
+    transform: translateY(0px) rotate(45deg);
+  }
+  #MenuToggle.open::after{
+    transform: translateY(0px) rotate(-45deg);
+  }
   .position {
     margin: 0px 3em;
   }
