@@ -1,0 +1,94 @@
+@import "/index.css";
+body{
+    overflow: hidden;
+}
+.register-box{
+    display: flex;
+    justify-content: center;
+    column-gap: 5em;
+    padding:15px 0 0px 0;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.register-box img{
+    width: 350px;
+    object-fit: cover;
+}
+.register-box .box{
+    padding-bottom: 10px;
+}
+.register-box .box span{
+    background: grey;
+    padding: 3px 7em;
+}
+.register-box .box span a{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--white);
+}
+.register-box h1{
+    color: var(--black);
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+.register-box h2{
+    font-size: 13px;
+    color: grey;
+    font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.register-box form{
+    padding: 5px 0 0 0;
+    text-align: start;
+}
+.register-box form .input{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5em;
+}
+.register-box form .input label{
+    font-size: 14px;
+    color: var(--black);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    
+}
+.register-box form .input input{
+    padding: 10px 0;
+    background: local;
+    border-bottom: 1px solid var(--blue);
+}
+.register-box form .input input::placeholder{
+    font-size: 11px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+.register-box form .input input[type = "text"],
+.register-box form .input input[type = "password"]{
+    color: var(--blue);
+    font-size: 13px;
+}
+.register-box button,.register-box button a{
+    padding: 10px 15px;
+    background: var(--red);
+    border-radius: 1.5em;
+    color: var(--black);
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+}
+footer{
+    margin-top: 1em;
+}
+footer .groups-footer {
+    padding: 10px 0;
+}
+footer .groups-footer .first-group h1 {
+    padding-bottom: 10px;
+}
+footer .groups-footer .contact-about .box h2 {
+    padding-bottom: 15px;
+}
