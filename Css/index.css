@@ -480,3 +480,50 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i {
     row-gap: 1em;
   }
 }
+
+@media only screen and (min-width:250px) and (max-width:350px){
+  .nav-bar h1 {
+    font-size: 16px;
+}
+.groups .img img {
+  width: 120px;
+  padding-bottom: 5px;
+}
+.groups .university-campus h1 {
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 3px;
+}
+.groups .university-campus form {
+  margin-top: 10px; 
+  padding: 2px 0;
+}
+.groups .university-campus form input::placeholder, .groups .university-campus form i {
+  font-size: 11px;
+  display: none;
+  text-align: center;
+}
+.container-box .cards .box h2 {
+  font-size: 16px;
+  padding-bottom: 3px;
+}
+.container-box .cards{
+  column-gap: 0;
+}
+.container-box .cards img,.groups-img .img img {
+  width: 75px;
+}
+.btn button {
+  font-size: 10px;
+  padding: 5px 11px;}
+  .groups-img .img .para p {
+    font-size: 10px;
+}
+.groups-img .img .para span {
+  font-size: 10px;
+  padding: 1px 5px;}
+}
+.groups-img .img .para:nth-of-type(2) > p, .groups-img .img .para:nth-of-type(2) > span {
+  padding-top: 5px;
+  font-size: 7px;
+}
