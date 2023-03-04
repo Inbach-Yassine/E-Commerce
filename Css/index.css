@@ -480,7 +480,6 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i {
     row-gap: 1em;
   }
 }
-
 @media only screen and (min-width:250px) and (max-width:350px){
   .nav-bar h1 {
     font-size: 16px;
@@ -503,15 +502,17 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i {
   display: none;
   text-align: center;
 }
-.container-box .cards .box h2 {
+.container-box .cards .box h2,.container-box {
   font-size: 16px;
+  row-gap: 1em;
   padding-bottom: 3px;
 }
 .container-box .cards{
   column-gap: 0;
+  padding: 1em 12px;
 }
 .container-box .cards img,.groups-img .img img {
-  width: 75px;
+  width: 60px;
 }
 .btn button {
   font-size: 10px;
@@ -527,3 +528,4 @@ footer .groups-footer .contact-about .box .icon p:nth-child(3) i {
   padding-top: 5px;
   font-size: 7px;
 }
+
